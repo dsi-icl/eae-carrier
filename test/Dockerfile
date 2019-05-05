@@ -1,5 +1,5 @@
 # Select source image
-FROM node:latest@sha256:c88ef4f7ca8d52ed50366d821e104d029f43e8686120a29541ce0371f333453f
+FROM node:lts-slim
 
 # Install all dependencies
 RUN apt-get update -q                                   \
