@@ -1,5 +1,5 @@
 # Select source image
-FROM node:wheezy@sha256:794c4034813b36753287adadfbec041e4771989209d863c92aede7f16b584ed9
+FROM node:lts-slim
 
 # Install all dependencies
 RUN apt-get update -q && apt-get upgrade -y --no-install-recommends
